@@ -18,9 +18,13 @@ public class santJordi {
 
         }while(!jordi.equalsIgnoreCase("salir"));
 
+sc.close();
 
+//        System.out.println(stJordi);
 
-        System.out.println(stJordi);
+        for (String elemento : stJordi){
+            System.out.println("* " + elemento);
+        }
 
     }
 }

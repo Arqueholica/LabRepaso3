@@ -11,6 +11,10 @@ public class listaNums {
             nums.add(i);
         }
 
-        System.out.println(nums);
+//        System.out.println(nums);
+
+        for (int num :nums){
+            System.out.println("- " + num);
+        }
     }
 }

@@ -1,8 +1,12 @@
 package com.repaso.tiendaDiscos;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
+/*
+DAVID 🆘 creo que no teníamos que crear una clase aparte ¿verdad? Acabo de caer en que no es eso lo que se pedía.
+Y ahora no sé cómo entrar en cada parte del objeto; he intentado forear pero me da el objeto completo *cries in Spanish*
+Te preguntaré el lunes pero bueno, dejo constancia por aquí.
+ */
 
 public class vinylStore {
     public static void main(String[] args) {
@@ -38,8 +42,6 @@ public class vinylStore {
 
 
         }
-
-
 
 
 
