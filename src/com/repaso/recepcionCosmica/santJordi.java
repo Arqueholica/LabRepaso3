@@ -8,11 +8,17 @@ public class santJordi {
         Scanner sc = new Scanner(System.in);
 
         ArrayList<String> stJordi = new ArrayList<>();
+        String jordi;
 
-        System.out.println("Enumera elementos de St. Jordi");
-        String jordi = sc.nextLine();
+        do{
+            System.out.println("Enumera elementos de St. Jordi. Escribe 'salir' para ver todos los elementos.");
+            jordi = sc.nextLine();
 
-        stJordi.add(jordi);
+            stJordi.add(jordi);
+
+        }while(!jordi.equalsIgnoreCase("salir"));
+
+
 
         System.out.println(stJordi);
 
